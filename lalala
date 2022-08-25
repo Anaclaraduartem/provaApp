@@ -1,0 +1,79 @@
+<ion-header [translucent]="true">
+  <ion-toolbar color="danger">
+    <ion-title> Doação de Sangue </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content [fullscreen]="true">
+  <ion-item-group>
+    <ion-item-divider>
+      <ion-label>
+        <h1>Como você deve estar para conseguir doar sangue:</h1>
+      </ion-label>
+    </ion-item-divider>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://i.pinimg.com/736x/be/e4/64/bee464ba8aeac5e3aa6b733ec1e97047.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label> Ser saudável </ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://st3.depositphotos.com/10370272/13212/v/600/depositphotos_132125842-stock-illustration-illustration-of-young-volunteer-man.jpg"
+        />
+      </ion-thumbnail>
+
+      <ion-label>Ter entre 16 e 69 anos</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://www.dicasfree.com/wp-content/uploads/2010/12/como-deixar-de-fumar.gif"
+        />
+      </ion-thumbnail>
+      <ion-label>Não fumar 2h antes e depois da doação</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://img.freepik.com/vetores-premium/garotinho-comendo-legumes-e-bebendo-desenho-de-leite_70172-1992.jpg?w=2000"
+        />
+      </ion-thumbnail>
+      <ion-label>Não estar em jejum</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="http://1.bp.blogspot.com/-FxGhcI5uLc0/TVgc9c0RMZI/AAAAAAAAAJg/Y3Keub8bwE8/s1600/no_FAST_FOOD_250.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>Não comer comidas gordurosas</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img
+          src="https://thumbs.dreamstime.com/b/inspe%C3%A7%C3%A3o-m%C3%A9dica-visual-do-est%C3%B4mago-gastrocopia-endoscopia-e-problemas-digestivos-mangueira-com-c%C3%A2mera-procedimento-%C3%B3rg%C3%A3os-173368128.jpg"
+        />
+      </ion-thumbnail>
+      <ion-label>Não ter feito endoscopia 6 meses antes da doação</ion-label>
+    </ion-item>
+
+    <ion-item>
+      <ion-thumbnail slot="start">
+        <img src="" />
+      </ion-thumbnail>
+      <ion-label
+        >Não ter feito piercing e tatuagem 12 meses antes da doação</ion-label
+      >
+    </ion-item>
+  </ion-item-group>
+</ion-content>
